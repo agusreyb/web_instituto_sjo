@@ -26,6 +26,40 @@ body{
     color: white !important;    
     border-left: 1px solid white;
     padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+.nav-link:hover{
+    background:  white;
+    color: #112031 !important;
+}
+
+.submenu{
+    position: absolute;
+    width: 170px;
+    display: none;
+    z-index: 3;
+}
+
+.submenu ul{
+    list-style:none;
+}
+
+.submenu li a{
+    display: block;
+    background-color: #112031;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.submenu li a:hover{
+    background-color: white;
+    color: #112031;
+}
+
+.navbar-nav li:hover .submenu{
+    display: block;
 }
 
 header{
