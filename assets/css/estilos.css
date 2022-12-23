@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #112031;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.logo__title{
+    color: white;
+    font-size: 25px;
+}
+
+.navbar{
+    border-top: 2px solid white ;
+    padding-bottom: 0;
+}
+
+.nav-link{
+    color: white !important;    
+    border-left: 1px solid white;
+    padding-left: 4rem !important;
+}
+
+header{
+    background-color: #112031;
+}
+.btn__card{
+    display: flex;
+    justify-content: center;
+  color: #112031 !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background:white;
+  border: 2px solid;
+  transition: all 1s ease;
+  position: relative;
+}
+
+.btn__card:hover{
+    background: #318aac;
+  color: #fff !important;
+}
+
+footer{
+    background-color: #112031;
+    border-top: 2px solid white;
+}
+
+.noticias{
+    background-color: #112031;
+    color: white;
+    opacity: 0.8;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.btn__noticias{
+    font-size: 30px;
+}
+.text__footer{
+    color: white;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height:0;}

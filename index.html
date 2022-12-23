@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instituto Secundario San José Obrero</title>
+    <script
+      src="https://kit.fontawesome.com/e08cab99c9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <script src="./bootstrap/js/jquery.slim.min.js"></script>
+    <!-- SIEMPRE PRIMERO-->
+    <script src="./bootstrap/js/bootstrap.bundle.min.js "></script>
+    <link rel="stylesheet" href="./assets/css/estilos.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <section class="container pt-3 pb-3">
+        <div>
+          <div class="row justify-content-center align-items-center pb-2">
+            <div class="col-3 text-center">
+              <img
+                class="logo"
+                src="./assets/img/logo.png"
+                alt="logo colegio"
+              />
+            </div>
+            <div class="align-self-center">
+              <p class="logo__title text-center">Instituto Secundario</p>
+              <p class="logo__title text-center">San José Obrero</p>
+              <p class="logo__title text-center font-italic">DIPREGEP 4925</p>
+            </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul
+              class="navbar-nav flex-fill justify-content-around mr-auto mt-2 mt-lg-0"
+            >
+              <li class="nav-item active">
+                <a
+                  class="nav-link d-flex justify-content-center"
+                  href="./index.html"
+                  >Inicio<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item active">
+                <a
+                  class="nav-link d-flex justify-content-center"
+                  href="./pages/institucional.html"
+                  >Institucional</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a
+                  class="nav-link d-flex justify-content-center"
+                  href="./pages/educacion.html"
+                  >Educacion</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a
+                  class="nav-link d-flex justify-content-center"
+                  href="./pages/comunidad.html"
+                  >Comunidad</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a
+                  class="nav-link d-flex justify-content-center"
+                  href="./pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+    </header>
+
+    <!-- CAROUSEL -->
+    <section class="container mt-3 mb-3">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="./assets/img/2023.jpg"
+              data-src="holder.js/900x400?theme=social"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./assets/img/donaciones.png"
+              data-src="holder.js/900x400?theme=industrial"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./assets/img/inscripciones.png"
+              data-src="holder.js/900x400?theme=industrial"
+              alt="Second slide"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <section class="container justify-content-center align-items-center mt-5">
+      <div class="row d-flex justify-content-center">
+        <!-- PRIMERA CARD -->
+        <div class="m-2 col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <img
+            class="card-img-top rounded"
+            src="./assets/img/inicial.jpg"
+            alt="Card image cap"
+          />
+          <a href="#!" class="btn btn-primary mt-1 btn__card">INICIAL</a>
+        </div>
+
+        <!-- SEGUNDA CARD -->
+        <div class="m-2 col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <img
+            class="card-img-top rounded"
+            src="./assets/img/primaria.jpg"
+            alt="Card image cap"
+          />
+          <a href="#!" class="btn btn-primary mt-1 btn__card">PRIMARIA</a>
+        </div>
+
+        <!-- TERCERA CARD -->
+        <div class="m-2 col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <img
+            class="card-img-top rounded"
+            src="./assets/img/secundaria.jpg"
+            alt="Card image cap"
+          />
+          <a href="#!" class="btn btn-primary mt-1 btn__card">SECUNDARIA</a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="container mt-5" />
+    <div class="container justify-content-center align-items-center">
+      <svg viewBox="0 0 960 300">
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="80%">Noticias</text>
+        </symbol>
+
+        <g class="g-ants">
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+        </g>
+      </svg>
+    </div>
+
+    <div class="container d-flex justify-content-center mb-5">
+      <button type="button" class="btn btn-danger btn__noticias">
+        Ver todas las noticias
+      </button>
+    </div>
+    <hr class="container mt-5" />
+    <!-- NOTICIAS -->
+    <section class="container mt-4">
+      <div class="card-columns mb-3">
+        <div class="card">
+          <div class="card-body">
+            <img
+              class="card-img-top rounded"
+              src="./assets/img/mision.jfif"
+              alt="Card image cap"
+            />
+            <h4 class="font-weight-bold">Misión Stroeder</h4>
+            <p>
+              Alumnos de 4to, 5to y 6to junto a docentes participaron de la
+              Misión 2022 que tuvo lugar en Stroeder Prov. de Bs.As. Fue una
+              semana repleta de emociones para todos.
+            </p>
+          </div>
+        </div>
+        <div class="card p-3">
+          <h4 class="font-weight-bold">Inscripciones</h4>
+          <p>
+            Próximamente se darán a conocer las fechas de inscripción para los
+            diferentes niveles educativos.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="font-weight-bold">Secretaría Parroquial</h4>
+            <p>
+              Horarios de atención: L a V de 9 a 17hs. Teléfono: 4445-3453.
+              Secretaria: Andrea Lopez.
+            </p>
+          </div>
+        </div>
+        <div class="card bg-primary p-3">
+          <img
+            class="card-img-top rounded"
+            src="./assets/img/01_de_mayo.jpg"
+            alt="Card image cap"
+          />
+          <h4 class="font-weight-bold">Acto 01 de Mayo</h4>
+          <p>
+            Con presencia de nuestro Obispo de la diócesis, festejamos el día de
+            nuestro patrono San José Obrero junto a toda la comunidad educativa
+            y parroquial.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img
+              class="card-img-top rounded"
+              src="./assets/img/promo_2022.png"
+              alt="Card image cap"
+            />
+            <h4 class="font-weight-bold">Secundario: Promo 2022</h4>
+            <p>
+              El día 19/12 se llevará a cabo el acto especial de fin de año para
+              los alumnos de 6to año, donde entregaremos diplomas. Luego, tendrá
+              lugar una cena junto a los familiares y comunidad educativa. ¡Te
+              esperamos!
+            </p>
+          </div>
+        </div>
+        <div class="card p-3">
+          <h4 class="font-weight-bold">Mesa de exámenes</h4>
+          <p>
+            En secretaría general podrá consultar todas las mesas de exámenes de
+            su interés a partir del lunes 12/12.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="miFooter">
+      <section class="container justify-content-center align-items-center p-4">
+        <div class="row">
+          <div class="col p-3 justify-content-center">
+            <p class="text__footer">Instituto Secundario</p>
+            <p class="text__footer">San José Obrero</p>
+            <p class="text__footer">Escuela Secundaria</p>
+            <p class="text__footer">DIPREGEP 4925</p>
+          </div>
+          <div class="col order-12 p-3 text__footer">
+            <p class="d-flex justify-content-center">
+              Pbro. Rafel Pazzelli 3368, Caseros
+            </p>
+            <div class="d-flex justify-content-center">
+              <i class="fa-solid fa-location-dot mr-2"></i>
+              <a
+                href="https://www.google.com/maps/dir/-34.600427,-58.5658106/
+                        instituto+secundario+san+jose+obrero+caseros/@-34.6060946,-58.5776307,15z/
+                        data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x95bcb98cdccdec13:0x35e60d8c1a21024b!2m2
+                        !1d-58.5759586!2d-34.6133208"
+              >
+                Cómo llegar</a
+              >
+            </div>
+          </div>
+          <div class="col order-1 p-3 text__footer">
+            <p class="d-flex justify-content-center">Seguinos en</p>
+            <div class="d-flex justify-content-center">
+              <i class="fa-brands fa-facebook-square m-2"></i>
+              <i class="fa-brands fa-twitter-square m-2"></i>
+            </div>
+          </div>
+          <div class="col p-3 text__footer">
+            <p class="d-flex justify-content-center">Comunicate con nosotros</p>
+            <i class="fa-solid fa-square-phone mr-2"></i
+            ><span> 4750-2953/4716-0267</span><br />
+            <i class="fa-regular fa-envelope mr-2"></i
+            ><span> instituto@sanjoedu.edu.ar</span>
+          </div>
+          <div class="col p-3 text__footer">
+            <i
+              class="fa-regular fa-clock d-flex justify-content-center mb-3"
+            ></i>
+            <span class="telefono_dia d-flex justify-content-center"
+              >Lunes a Viernes</span
+            >
+            <span class="mail_hora d-flex justify-content-center"
+              >8 a 13hs</span
+            >
+          </div>
+        </div>
+        <div>
+          <p class="d-flex justify-content-center" style="color: white">
+            ©Copyright: Todos los derechos resevados.
+          </p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
