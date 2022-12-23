@@ -25,12 +25,13 @@ body{
 .nav-link{
     color: white !important;    
     border-left: 1px solid white;
-    padding-left: 4rem !important;
+    padding-left: 3rem !important;
 }
 
 header{
     background-color: #112031;
 }
+
 .btn__card{
     display: flex;
     justify-content: center;
@@ -119,3 +120,6 @@ svg {
 }
 
 hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height:0;}
+.fondo{
+    background-color: #112031;
+}
