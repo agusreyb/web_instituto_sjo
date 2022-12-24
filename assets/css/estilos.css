@@ -159,14 +159,6 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
 }
 
 /* INSTITUCIONAL */
-section div h1{
-    color: white;
-    font-style: italic;
-}
-
-h1 span{
-    color:#BD0034;
-}
 
 .media{
     color: white !important;
@@ -184,8 +176,11 @@ h1 span{
 .texto__inst{
     display: flex;
     padding: 0.5rem;
-    background-color: white;
-    opacity: 0.8;
-    color: black;
+    color: white;
+}
 
+.presentacion{
+    color: white !important;
+    background: rgb(17,32,49);
+    background: linear-gradient(90deg, rgba(17,32,49,1) 3%, rgba(129,135,148,1) 35%, rgba(17,32,49,1) 100%);
 }
