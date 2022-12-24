@@ -157,3 +157,35 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
 .fondo{
     background-color: #112031;
 }
+
+/* INSTITUCIONAL */
+section div h1{
+    color: white;
+    font-style: italic;
+}
+
+h1 span{
+    color:#BD0034;
+}
+
+.media{
+    color: white !important;
+    align-items: center !important;
+}
+
+.img__inst{
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.texto__inst{
+    display: flex;
+    padding: 0.5rem;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+
+}
