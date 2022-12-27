@@ -200,3 +200,8 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
     filter: opacity(.5);
 }
 
+.title__comu{
+    text-align: center;
+    padding-left: 2px;
+    font-size: 50px
+}
