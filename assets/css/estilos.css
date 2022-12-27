@@ -200,15 +200,3 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
     filter: opacity(.5);
 }
 
-.jittery {
-    font:400 80px/1em Amatic SC;
-    text-align:center;
-    padding-top:20px;
-    animation:jitter 200ms linear infinite;
-    color:white;
-    display:inline-block
-}
-@keyframes jitter{
-     50%{transform:skewY(0.7deg) skewX(-0.7deg) scale(1.006);} 
-    }
-
