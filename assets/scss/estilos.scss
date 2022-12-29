@@ -43,10 +43,11 @@ body{
     width: 170px;
     display: none;
     z-index: 3;
-    
-&.submenu ul{
-    list-style:none;
+
 }
+    
+.submenu ul{
+    list-style:none;}
 
 .submenu li a{
     display: block;
@@ -54,13 +55,12 @@ body{
     padding: 15px;
     color: white;
     text-decoration: none;
-    &.submenu li a:hover{
-        background-color: white;
-        color: #112031;
-    }
-}
 }
 
+.submenu li a:hover{
+    background-color: white;
+    color: #112031;
+}
 
 .navbar-nav li:hover .submenu{
     display: block;
@@ -189,12 +189,8 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
 }
 
 /* EDUCACIÓN */
-.horarios{
-    &h3
-    {
-        color: white !important;
-
-    }
+.horarios_title{
+    color: white !important;
 }
 .horarios_niveles{
     color:white !important;
