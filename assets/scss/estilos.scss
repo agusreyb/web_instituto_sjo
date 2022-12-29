@@ -188,6 +188,18 @@ hr {border: 0; border-top: 1px solid #999; border-bottom: 1px solid #333; height
     background: linear-gradient(90deg, rgba(17,32,49,1) 3%, rgba(129,135,148,1) 35%, rgba(17,32,49,1) 100%);
 }
 
+/* EDUCACIÓN */
+.horarios{
+    &h3
+    {
+        color: white !important;
+
+    }
+}
+.horarios_niveles{
+    color:white !important;
+}
+
 /* COMUNIDAD */
 
 .img__comu{
@@ -335,6 +347,7 @@ label{
 	outline:0;
 	border: 1px solid #97d848;
 }
+
 
 @media screen and (max-width: 992px) {
     svg {
